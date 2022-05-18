@@ -17,14 +17,13 @@ class Person :
         print(self.name, self.age)
 
     def increase_age(self) :
-        self.age = self.age + 1
+        self.age += 1
         print(self.age)
 
     def say_greeting(self) :
         print('Hello world! My name is {0}!', self.name )
 
     def count_to_age(self) :
-        print('do a loop to count from 1 to self.age')
         for num in range (1,self.age+1) :
             print(num)
 
