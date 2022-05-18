@@ -17,7 +17,7 @@ class Person :
         print(self.name, self.age)
 
     def increase_age(self) :
-        self.age += 1
+        self.age = self.age + 1
         print(self.age)
 
     def say_greeting(self) :
